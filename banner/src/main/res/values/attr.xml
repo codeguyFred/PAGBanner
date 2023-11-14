@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="selColor" format="color" />
+    <attr name="normalColor" format="color" />
+    <attr name="itemWidth" format="dimension" />
+    <attr name="itemHeight" format="dimension" />
+    <attr name="itemPaddingStart" format="dimension" />
+
+    <declare-styleable name="Indicator">
+        <attr name="selColor" />
+        <attr name="normalColor" />
+        <attr name="itemWidth" />
+        <attr name="itemHeight" />
+        <attr name="itemPaddingStart" />
+
+    </declare-styleable>
+
+</resources>
