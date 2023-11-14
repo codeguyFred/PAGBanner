@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <cn.codeguy.banner.Banner
+        android:id="@+id/pag_banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <cn.codeguy.banner.RectIndicator
+        android:id="@+id/rect_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        app:itemHeight="6dp"
+        app:itemPaddingStart="12dp"
+        app:itemWidth="20dp"
+        app:normalColor="@color/white_30"
+        app:selColor="@color/white" />
+</LinearLayout>
